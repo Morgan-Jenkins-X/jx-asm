@@ -21,13 +21,13 @@ spec:
   environments:
   - key: dev
     owner: Morgan-Jenkins-X
-    repository: jx-asm
+    repository: https://github.com/Morgan-Jenkins-X/jx-asm.git
   - key: staging
     owner: Morgan-Jenkins-X
-    repository: jx-asm
+    repository: https://github.com/Morgan-Jenkins-X/jx-asm.git
   - key: production
     owner: Morgan-Jenkins-X
-    repository: jx-asm
+    repository: https://github.com/Morgan-Jenkins-X/jx-asm.git
   ingress:
     domain: 50ac0b317dea23d24c56e825c29919ae.gr7.us-east-2.eks.amazonaws.com
     kind: ingress
