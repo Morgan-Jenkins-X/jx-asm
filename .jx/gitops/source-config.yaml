@@ -10,6 +10,12 @@ spec:
     repositories:
     - name: funkyboy
     scheduler: in-repo
+  - owner: Morgan-Jenkins-X
+    provider: https://github.com
+    providerKind: github
+    repositories:
+    - name: noderepo
+    scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
     kind: failureOrNextSuccess
