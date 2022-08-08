@@ -17,7 +17,7 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "https://50AC0B317DEA23D24C56E825C29919AE.gr7.us-east-2.eks.amazonaws.com"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
