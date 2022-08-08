@@ -1,7 +1,7 @@
 FETCH_DIR := build/base
 TMP_TEMPLATE_DIR := build/tmp
 OUTPUT_DIR := config-root
-KUBEAPPLY ?= kubectl-apply
+KUBEAPPLY ?= "kubectl apply"
 HELM_TMP_GENERATE ?= /tmp/generate
 HELM_TMP_SECRETS ?= /tmp/secrets/jx-helm
 
