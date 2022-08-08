@@ -8,11 +8,11 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
-      - Morgan-Jenkins-X/jx-asm
+      - Morgan-Jenkins-X/https://github.com/Morgan-Jenkins-X/jx-asm.git
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
-      - Morgan-Jenkins-X/jx-asm
+      - Morgan-Jenkins-X/https://github.com/Morgan-Jenkins-X/jx-asm.git
       require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
@@ -24,6 +24,11 @@ data:
         env/prow/plugins.yaml:
           name: plugins
     external_plugins:
+      Morgan-Jenkins-X/https://github.com/Morgan-Jenkins-X/jx-asm.git:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
       Morgan-Jenkins-X/jx-asm:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
@@ -34,6 +39,22 @@ data:
       additional_labels: null
     owners: {}
     plugins:
+      Morgan-Jenkins-X/https://github.com/Morgan-Jenkins-X/jx-asm.git:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       Morgan-Jenkins-X/jx-asm:
       - config-updater
       - approve
@@ -64,11 +85,13 @@ data:
       - Morgan-Jenkins-X/jx-asm
       trusted_org: todo
     - repos:
-      - Morgan-Jenkins-X/jx-asm
+      - Morgan-Jenkins-X/https://github.com/Morgan-Jenkins-X/jx-asm.git
       trusted_org: todo
     - repos:
-      - Morgan-Jenkins-X/jx-asm
+      - Morgan-Jenkins-X/https://github.com/Morgan-Jenkins-X/jx-asm.git
       trusted_org: todo
+    welcome:
+    - message_template: Welcome
 kind: ConfigMap
 metadata:
   creationTimestamp: null

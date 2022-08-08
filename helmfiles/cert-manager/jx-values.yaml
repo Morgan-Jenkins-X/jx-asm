@@ -23,8 +23,9 @@ jxRequirements:
     chartRepository: http://jenkins-x-chartmuseum.jx.svc.cluster.local:8080
     clusterName: automation-mgmt-eks
     devEnvApprovers:
-    - todo
-    environmentGitOwner: todo
+    - jenkinsxbotmo
+    environmentGitOwner: Morgan-Jenkins-X
+    environmentGitPublic: true
     gitKind: github
     gitName: github
     gitServer: https://github.com
@@ -38,10 +39,10 @@ jxRequirements:
     repository: jx-asm
   - key: staging
     owner: Morgan-Jenkins-X
-    repository: jx-asm
+    repository: https://github.com/Morgan-Jenkins-X/jx-asm.git
   - key: production
     owner: Morgan-Jenkins-X
-    repository: jx-asm
+    repository: https://github.com/Morgan-Jenkins-X/jx-asm.git
   ingress:
     domain: 50ac0b317dea23d24c56e825c29919ae.gr7.us-east-2.eks.amazonaws.com
     kind: ingress

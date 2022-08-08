@@ -15,9 +15,9 @@ spec:
   providerKind: 'github'
   providerName: 'github'
   org: "Morgan-Jenkins-X"
-  repo: "jx-asm"
-  httpCloneURL: "https://github.com/Morgan-Jenkins-X/jx-asm.git"
-  url: "https://github.com/Morgan-Jenkins-X/jx-asm.git"
+  repo: "https://github.com/Morgan-Jenkins-X/jx-asm.git"
+  httpCloneURL: "https://github.com/Morgan-Jenkins-X/https://github.com/Morgan-Jenkins-X/jx-asm.git.git"
+  url: "https://github.com/Morgan-Jenkins-X/https://github.com/Morgan-Jenkins-X/jx-asm.git.git"
   scheduler:
     kind: Scheduler
     name: "in-repo"

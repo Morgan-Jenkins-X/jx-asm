@@ -21,7 +21,7 @@ spec:
   environments:
   - key: dev
     owner: Morgan-Jenkins-X
-    repository: https://github.com/Morgan-Jenkins-X/jx-asm.git
+    repository: jx-asm
   - key: staging
     owner: Morgan-Jenkins-X
     repository: https://github.com/Morgan-Jenkins-X/jx-asm.git

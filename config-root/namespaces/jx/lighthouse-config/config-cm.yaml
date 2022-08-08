@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        Morgan-Jenkins-X/https://github.com/Morgan-Jenkins-X/jx-asm.git: true
         Morgan-Jenkins-X/jx-asm: true
     plank: {}
     pod_namespace: jx
@@ -19,6 +20,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        Morgan-Jenkins-X/https://github.com/Morgan-Jenkins-X/jx-asm.git: merge
         Morgan-Jenkins-X/jx-asm: merge
       queries:
       - labels:
@@ -31,6 +33,7 @@ data:
         - needs-rebase
         repos:
         - Morgan-Jenkins-X/jx-asm
+        - Morgan-Jenkins-X/https://github.com/Morgan-Jenkins-X/jx-asm.git
       - labels:
         - updatebot
         missingLabels:
@@ -41,6 +44,7 @@ data:
         - needs-rebase
         repos:
         - Morgan-Jenkins-X/jx-asm
+        - Morgan-Jenkins-X/https://github.com/Morgan-Jenkins-X/jx-asm.git
       target_url: http://lighthouse-jx.50ac0b317dea23d24c56e825c29919ae.gr7.us-east-2.eks.amazonaws.com/merge/status
 kind: ConfigMap
 metadata:
