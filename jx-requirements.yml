@@ -28,7 +28,7 @@ spec:
     owner: Morgan-Jenkins-X
     repository: jx-asm
   ingress:
-    domain: "https://50ac0b317dea23d24c56e825c29919ae.gr7.us-east-2.eks.amazonaws.com"
+    domain: "50ac0b317dea23d24c56e825c29919ae.gr7.us-east-2.eks.amazonaws.com"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
