@@ -1,7 +1,7 @@
 # Source: jxboot-helmfile-resources/templates/ingress-config-configmap.yaml
 apiVersion: v1
 data:
-  domain: "change.me"
+  domain: "50ac0b317dea23d24c56e825c29919ae.gr7.us-east-2.eks.amazonaws.com"
   email: ""
   exposer: "Ingress"
   issuer: ""
