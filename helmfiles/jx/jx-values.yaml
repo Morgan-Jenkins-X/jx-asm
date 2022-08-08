@@ -37,9 +37,13 @@ jxRequirements:
     owner: Morgan-Jenkins-X
     repository: jx-asm
   - key: staging
+    owner: Morgan-Jenkins-X
+    repository: jx-asm
   - key: production
+    owner: Morgan-Jenkins-X
+    repository: jx-asm
   ingress:
-    domain: change.me
+    domain: 50ac0b317dea23d24c56e825c29919ae.gr7.us-east-2.eks.amazonaws.com
     kind: ingress
     namespaceSubDomain: -jx.
     tls:

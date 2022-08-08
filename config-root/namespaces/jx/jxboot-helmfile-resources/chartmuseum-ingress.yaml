@@ -19,4 +19,4 @@ spec:
                 name: jenkins-x-chartmuseum
                 port:
                   number: 8080
-      host: chartmuseum-jx.change.me
+      host: chartmuseum-jx.50ac0b317dea23d24c56e825c29919ae.gr7.us-east-2.eks.amazonaws.com
